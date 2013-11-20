@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicatonDemo", "Applicato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicatonDemo.Tests", "ApplicatonDemo.Tests\ApplicatonDemo.Tests.csproj", "{0C3CC265-BF38-4B86-9353-D5862CB46BB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematicas", "Matematicas\Matematicas.csproj", "{52395865-83B4-4E83-9F43-A8EAD3FD03A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0C3CC265-BF38-4B86-9353-D5862CB46BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3CC265-BF38-4B86-9353-D5862CB46BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3CC265-BF38-4B86-9353-D5862CB46BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52395865-83B4-4E83-9F43-A8EAD3FD03A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52395865-83B4-4E83-9F43-A8EAD3FD03A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52395865-83B4-4E83-9F43-A8EAD3FD03A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52395865-83B4-4E83-9F43-A8EAD3FD03A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
