@@ -14,5 +14,10 @@ namespace Matematicas
             return Fibonacci(indice-2) + Fibonacci(indice-1);
         }
 
+        public int Suma(int sumandoA, int sumandoB)
+        {
+            return 0;
+        }
+
     }
 }
