@@ -8,9 +8,10 @@ namespace Matematicas
 {
     public class Basicas
     {
-        public int Fibonacci(int numero)
+        public int Fibonacci(int indice)
         {
-            return 0;
+            if (indice == 1 || indice == 2) return 1;
+            return Fibonacci(indice-2) + Fibonacci(indice-1);
         }
 
     }
