@@ -24,6 +24,7 @@ namespace TestNUnit
             var sut = new Matematicas.Basicas();
             Assert.AreEqual(1, sut.Fibonacci(2), "Error 2");
         }
+        //Ejemplo para generar conflictos
         [Test]
         public void TestFibonacciValor3()
         {
@@ -33,6 +34,7 @@ namespace TestNUnit
         [Test]
         public void TestFibonacciValor4()
         {
+            //Otro comentario
             var sut = new Matematicas.Basicas();
             Assert.AreEqual(3, sut.Fibonacci(4), "Error 4");
         }
