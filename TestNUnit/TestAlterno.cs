@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 
 //Ejemplo de Testing con NUnit :D
+//Una modificacion desde GitHub
 namespace TestNUnit
 {
     public class TestAlterno
@@ -41,7 +42,7 @@ namespace TestNUnit
         public void TestFibonacciValor5()
         {
             var sut = new Matematicas.Basicas();
-            Assert.AreEqual(5, sut.Fibonacci(5), "Error 5");
+            Assert.AreEqual(5, sut.Fibonacci(5), "Error de 5");
         }
 
         [Test]
