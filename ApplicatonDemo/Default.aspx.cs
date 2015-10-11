@@ -13,6 +13,11 @@ namespace ApplicatonDemo
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            lblTexto.Text = "Hola AWS";
+        }
         //Modificacion Lunes 1)
         //Modificacion Lunes 3)
         //Modificacion Jueves
